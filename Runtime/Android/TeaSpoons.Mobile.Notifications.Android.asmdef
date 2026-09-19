@@ -1,0 +1,21 @@
+{
+    "name": "TeaSpoons.Mobile.Notifications.Android",
+    "rootNamespace": "TeaSpoons.Mobile.Notifications.Android",
+    "references": [
+        "GUID:28b8282aec6542a5bbb33e5b50dcaa41",
+        "GUID:ac145e6b8c6034cdbadc8c6e26aedbcf",
+        "GUID:2b49f7611ee69e9478ae89297ce9b2c3"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
