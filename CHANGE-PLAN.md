@@ -16,7 +16,7 @@ Originally developed at Bigpoint. Published here with Bigpoint's permission for 
 
 ## Planned changes
 
-- [ ] Tag and publish `v0.5.0` with the Release workflow.
+- [x] Tag and publish `v0.5.0` with the Release workflow.
 - [ ] Make installs resolve dependencies automatically, for example through a registry such as OpenUPM.
 
 ## Notes and ideas
