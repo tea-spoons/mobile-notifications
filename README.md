@@ -303,7 +303,7 @@ In Unity: **Window > Package Manager > + > Add package from git URL**, then ente
 https://github.com/tea-spoons/mobile-notifications.git
 ```
 
-Pin a release by appending a tag, for example `#v0.4.1`.
+Pin a release by appending a tag, for example `#v0.5.0`.
 
 ### Dependencies
 
@@ -311,6 +311,14 @@ Unity cannot resolve git dependencies automatically, so add these to your projec
 
 - `com.unity.mobile.notifications` 2.4.3
 - `com.tea-spoons.service-locator` 0.5.6
+
+## Optional packages
+
+This package works on its own. It uses the packages below when your project has them (Unity detects them automatically) and simply leaves the related code out when it does not.
+
+| Package | Used for |
+|---|---|
+| Unity Mobile Notifications (`com.unity.mobile.notifications` 2.4.3+) | The Android and iOS implementations. Without it only the platform-independent abstraction is compiled. |
 
 ## Change plan
 

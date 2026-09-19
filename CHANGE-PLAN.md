@@ -12,10 +12,11 @@ Originally developed at Bigpoint. Published here with Bigpoint's permission for 
 - Internal build, registry and tracker references were removed; the repo uses GitHub Actions (`CI` and `Release`) built on `unity-ci-kit`.
 - Added `LICENSE.md` (PolyForm Noncommercial 1.0.0), an install section in the README, and package metadata (author, license and documentation URLs).
 - Renamed the Android manifest template that carried the old brand name.
+- Made standalone: no longer declares Unity Mobile Notifications as a dependency. The Android and iOS implementations are compiled only when it is installed.
 
 ## Planned changes
 
-- [ ] Tag and publish `v0.4.1` with the Release workflow.
+- [ ] Tag and publish `v0.5.0` with the Release workflow.
 - [ ] Make installs resolve dependencies automatically, for example through a registry such as OpenUPM.
 
 ## Notes and ideas

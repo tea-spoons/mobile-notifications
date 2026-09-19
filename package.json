@@ -1,11 +1,10 @@
 {
   "name": "com.tea-spoons.mobile-notifications",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "displayName": "Mobile Notifications",
   "description": "Local notification abstraction layer for iOS and Android. Provides scheduling, cancellation, category management, and deep link support via the TeaSpoons service locator.",
   "unity": "6000.0",
   "dependencies": {
-    "com.unity.mobile.notifications": "2.4.3",
     "com.tea-spoons.service-locator": "0.5.6"
   },
   "author": {

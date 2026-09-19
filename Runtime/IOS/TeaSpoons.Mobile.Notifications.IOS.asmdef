@@ -1,21 +1,29 @@
 {
-    "name": "TeaSpoons.Mobile.Notifications.IOS",
-    "rootNamespace": "TeaSpoons.Mobile.Notifications.IOS",
-    "references": [
-        "GUID:28b8282aec6542a5bbb33e5b50dcaa41",
-        "GUID:1e8e55397bd004beaba78a667566665f",
-        "GUID:2b49f7611ee69e9478ae89297ce9b2c3"
-    ],
-    "includePlatforms": [
-        "Editor",
-        "iOS"
-    ],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": false,
-    "defineConstraints": [],
-    "versionDefines": [],
-    "noEngineReferences": false
+  "name": "TeaSpoons.Mobile.Notifications.IOS",
+  "rootNamespace": "TeaSpoons.Mobile.Notifications.IOS",
+  "references": [
+    "GUID:28b8282aec6542a5bbb33e5b50dcaa41",
+    "GUID:1e8e55397bd004beaba78a667566665f",
+    "GUID:2b49f7611ee69e9478ae89297ce9b2c3"
+  ],
+  "includePlatforms": [
+    "Editor",
+    "iOS"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_MOBILE_NOTIFICATIONS"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.unity.mobile.notifications",
+      "expression": "2.4.3",
+      "define": "UNITY_MOBILE_NOTIFICATIONS"
+    }
+  ],
+  "noEngineReferences": false
 }
